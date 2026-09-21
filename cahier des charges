@@ -1,0 +1,209 @@
+# CAHIER DES CHARGES  
+## Application web d’éducation politique et de comparaison des programmes
+
+## 1. Nom provisoire du projet
+
+**ClairPolitique**
+
+Le nom est provisoire et pourra être modifié plus tard.
+
+---
+
+## 2. Présentation du projet
+
+ClairPolitique est une application web destinée à rendre la politique plus accessible aux personnes qui ont du mal à comprendre :
+
+- les programmes politiques ;
+- les propositions des partis ;
+- le vocabulaire politique ;
+- le fonctionnement des institutions ;
+- les différences entre plusieurs programmes.
+
+L’application doit centraliser l’information politique dans une interface simple, claire, pédagogique et agréable à utiliser.
+
+Son objectif n’est pas d’indiquer à l’utilisateur pour qui voter.
+
+L’objectif est de lui permettre de comprendre les différentes propositions afin qu’il puisse se faire sa propre opinion.
+
+---
+
+## 3. Problématique
+
+Les programmes politiques sont souvent :
+
+- très longs ;
+- difficiles à lire ;
+- remplis de vocabulaire technique ;
+- dispersés sur plusieurs sites ;
+- difficiles à comparer ;
+- peu accessibles aux personnes qui commencent à s’intéresser à la politique.
+
+L’application doit donc répondre à une question simple :
+
+> Qu’est-ce que les différents partis proposent réellement et qu’est-ce que cela signifie concrètement ?
+
+---
+
+## 4. Public cible
+
+L’application vise principalement :
+
+- les jeunes adultes ;
+- les primo-votants ;
+- les personnes peu politisées ;
+- les personnes qui souhaitent développer leur culture politique ;
+- les personnes qui trouvent les programmes officiels trop compliqués ;
+- les étudiants ;
+- les jeunes actifs.
+
+L’application doit cependant rester accessible à tous.
+
+---
+
+## 5. Objectifs
+
+### Objectif principal
+
+Rendre l’information politique plus simple à comprendre sans remplacer les sources originales.
+
+### Objectifs secondaires
+
+Permettre à l’utilisateur de :
+
+- découvrir les différents partis ;
+- consulter leurs programmes ;
+- comprendre leurs principales propositions ;
+- comparer plusieurs propositions sur un même thème ;
+- apprendre le vocabulaire politique ;
+- comprendre le fonctionnement des institutions ;
+- rechercher rapidement un sujet ;
+- retrouver les sources originales ;
+- approfondir un sujet lorsqu’il le souhaite.
+
+---
+
+# 6. Principe de neutralité
+
+L’application doit rester politiquement neutre.
+
+Elle ne doit jamais :
+
+- recommander un parti ;
+- recommander un candidat ;
+- dire à l’utilisateur pour qui voter ;
+- attribuer une note à un parti ;
+- établir un classement ;
+- désigner un programme comme étant meilleur qu’un autre ;
+- créer un score de compatibilité politique ;
+- favoriser visuellement un parti ;
+- présenter une opinion politique comme un fait.
+
+Tous les partis doivent être présentés selon la même structure.
+
+L’ordre d’affichage devra suivre une règle neutre et transparente, par exemple l’ordre alphabétique.
+
+---
+
+# 7. Sources
+
+Chaque proposition politique réelle doit être reliée à une source identifiable.
+
+Les sources privilégiées sont :
+
+- programmes officiels ;
+- sites officiels des partis ;
+- professions de foi ;
+- documents électoraux ;
+- publications officielles ;
+- documents institutionnels.
+
+Pour les contenus éducatifs, privilégier :
+
+- institutions publiques ;
+- textes officiels ;
+- universités ;
+- organismes reconnus ;
+- ressources pédagogiques fiables.
+
+Chaque proposition doit pouvoir contenir :
+
+- titre de la source ;
+- URL ;
+- date de publication ;
+- parti concerné ;
+- date de dernière vérification ;
+- page ou section du document lorsque cela est possible.
+
+L’application ne doit jamais présenter un contenu généré automatiquement comme s’il s’agissait directement d’un texte officiel.
+
+---
+
+# 8. Structure d’une proposition
+
+Chaque proposition doit pouvoir être affichée sur plusieurs niveaux de lecture.
+
+### Titre
+
+Exemple :
+
+> Réformer le système X
+
+### En clair
+
+Une explication simple.
+
+Exemple :
+
+> Le parti propose de modifier le fonctionnement de X afin de…
+
+### Pour aller plus loin
+
+Une explication plus détaillée.
+
+### Source
+
+Un bouton doit permettre d’accéder au document original :
+
+**Voir la source originale**
+
+---
+
+# 9. Deux niveaux de lecture
+
+L’utilisateur pourra choisir entre :
+
+## Mode simple
+
+- phrases courtes ;
+- vocabulaire accessible ;
+- définitions des mots compliqués ;
+- explication en quelques lignes ;
+- informations essentielles.
+
+## Mode détaillé
+
+- davantage de contexte ;
+- explication du mécanisme proposé ;
+- détails complémentaires ;
+- accès aux sources ;
+- éléments nécessaires à une compréhension plus approfondie.
+
+Le contenu politique doit rester le même.
+
+Seul le niveau d’explication change.
+
+---
+
+# 10. Arborescence générale
+
+L’application devra comporter les pages principales suivantes :
+
+```text
+/
+ /partis
+ /partis/[slug]
+ /comparer
+ /themes/[slug]
+ /comprendre
+ /glossaire
+ /sources
