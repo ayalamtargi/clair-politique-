@@ -1,0 +1,69 @@
+# Instructions pour Codex
+
+Avant toute modification importante, lire :
+
+docs/CAHIER_DES_CHARGES.md
+
+## Projet
+
+Cette application a pour objectif de rendre les programmes politiques et l'éducation politique plus faciles à comprendre.
+
+Elle doit informer l'utilisateur sans lui dire quoi penser ni pour qui voter.
+
+## Technologies
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- App Router
+
+## Développement
+
+- Construire en mobile-first.
+- Utiliser des composants réutilisables.
+- Garder une architecture simple.
+- Respecter l'accessibilité.
+- Éviter les dépendances inutiles.
+
+## Neutralité politique
+
+Ne jamais :
+
+- recommander un parti ou un candidat ;
+- dire à l'utilisateur pour qui voter ;
+- créer un classement politique ;
+- attribuer une note aux partis ;
+- créer un score de compatibilité politique ;
+- désigner un gagnant dans une comparaison ;
+- favoriser visuellement un parti ;
+- inventer une proposition politique ;
+- inventer une source.
+
+Tous les partis doivent bénéficier du même traitement visuel et éditorial.
+
+## Données de développement
+
+Pour la première version, utiliser uniquement :
+
+- Parti A
+- Parti B
+- Parti C
+
+Afficher clairement :
+
+"Données de démonstration — aucun parti réel n'est représenté."
+
+## Vérifications
+
+Avant de terminer une tâche :
+
+- vérifier les erreurs TypeScript ;
+- lancer le lint ;
+- lancer le build ;
+- corriger les erreurs éventuelles.
+
+Commandes :
+
+npm run lint
+npm run build
